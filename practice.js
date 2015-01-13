@@ -11,7 +11,7 @@ var isTyler = function(name) {
   } else {
     return false;
   }
-}
+};
 
 
 //Next problem
@@ -20,10 +20,10 @@ var isTyler = function(name) {
 
 //Create a function called getName that uses prompt() to prompt the user for their name, then returns the name.
 
-var name = prompt("Please enter your name")
-var getName = function(name) {
-  return name;
-}
+var askName = prompt("Please enter your name")
+var getName = function(askName) {
+  return askName;
+};
 
 
 //Next Problem
@@ -34,8 +34,9 @@ var getName = function(name) {
 //previous problem to get the users name,
 //then alerts "Welcome, " plus whatever the users name is.
 
-  //Code Here
-
+var welcome = function() {
+  ("Welcome, " + askName);
+};
 
 //Next problem
 
